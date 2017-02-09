@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
 body{
 	margin: auto;
 	font-family: arial;
@@ -14,6 +21,7 @@ h1 {
 
 ul {
 	list-style: none;
+        padding: 0px;
 }
 
 nav ul {
@@ -46,18 +54,17 @@ h2{
 	display: inline-block;
 	background-color: tomato;
 	margin: auto;
-	width: 90%;
 }
 
 .gallery li{
 	float: left;
-	width: 30%;
+	width: 33.3%;
 	padding: 15px;
 	margin: 5px auto;
 	display: block;
 }
 
-.img {
+img {
 	display: inline;
 	width: 100%;
 	align-items: center;
@@ -67,7 +74,6 @@ h2{
 .edit_delete{
 	text-align: center;
 	background-color: yellow;
-	max-width: 200px;
 }
 
 footer {
